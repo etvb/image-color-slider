@@ -1,1 +1,1 @@
-window.alert('kjh');
+// window.alert('kjh');

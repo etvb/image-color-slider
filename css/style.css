@@ -1,11 +1,19 @@
-html{
+
+* {
     box-sizing: border-box;
-}
+    margin: 0;
+    padding: 0;
 
-*, *:before, *:after {
-    box-sizing: inherit;
 }
+section {
+    border: 1px solid red;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
 
-body {
-    background-color: red;
 }
